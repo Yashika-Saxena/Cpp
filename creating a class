@@ -1,0 +1,38 @@
+#include <iostream>
+//using namespace std;
+class Abc
+{
+   
+    int i;           //data variable
+    void display()         //Member Function
+    { 
+       std::cout << "Inside Member Function";
+    }
+}; // Class ends here
+
+int main()
+{
+    Abc obj;  // Creatig Abc class's object
+    obj.display();  //Calling member function using class object
+}
+
+
+// this whill show an error because in this code compiler consider the class as a private class so we have to mentioned public there to access the class 
+
+#include <iostream>
+//using namespace std;
+class Abc
+{
+    public: 
+    int i;           //data variable
+    void display()         //Member Function
+    { 
+       std::cout << "Inside Member Function";
+    }
+}; // Class ends here
+
+int main()
+{
+    Abc obj;  // Creatig Abc class's object
+    obj.display();  //Calling member function using class object
+}
