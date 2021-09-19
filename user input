@@ -4,5 +4,5 @@ int main(){
     string j;
     cout << "enter your name: ";
     cin >> j;
-    cout << "hello " << j << ",\n How are you" ;
+    cout << "hello " << j << ",\n How are you" ;   //we can use endl inplace of \n
 }
