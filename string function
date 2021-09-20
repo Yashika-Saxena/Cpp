@@ -7,7 +7,8 @@ int main(){
     cin >> x;
     cout<< "Enter last name :";
     cin>>y;
-     cout << "hello "<< x <<" "<< y << endl;
+     cout << "hello "<< x <<" "<< y << endl;   //concatenate
+      cout<< z.length() << endl;
      cout<< "completed";
 }
 
@@ -22,8 +23,11 @@ int main(){
     cin >> x;
     cout<< "Enter last name :";
     cin>>y;
-     cout << "hello "<< x +" "+ y << endl;
+    string z =x +" "+ y      //concatenate
+     cout << "hello "<< z << endl;
+      cout<< z.length() << endl;
      cout<< "completed";
+     
 }
 
 //alternative
@@ -37,6 +41,8 @@ int main(){
     cin >> x;
     cout<< "Enter last name : ";
     cin>>y;
-     cout << "hello "<<  x.append(y) << endl;
+    string z=   x.append(y);          //concatenate
+     cout << "hello "<< z << endl;
+      cout<< z.size() << endl;    //length of the string
      cout<< "completed";
 }
