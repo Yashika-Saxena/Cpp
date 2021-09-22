@@ -35,3 +35,6 @@ int main() {
   cout << "Double: " << myNum2;
   return 0;
 }
+
+
+//Multiple functions can have the same name as long as the number and/or type of parameters are different.
